@@ -1,2 +1,13 @@
-package sn.ads.societymanagement.Entities;public class ResponseRequest {
+package sn.ads.societymanagement.Entities;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+public class ResponseRequest {
+    private boolean error;
+    private String message;
 }
